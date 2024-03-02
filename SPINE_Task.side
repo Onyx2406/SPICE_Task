@@ -1,0 +1,58 @@
+{
+  "id": "2e7f8bc8-c25a-4b00-b499-ace1dacf737a",
+  "version": "2.0",
+  "name": "SPINE23",
+  "url": "https://idup.gov.in",
+  "tests": [{
+    "id": "75047ec3-53a0-4379-a6ca-896ae6458c0e",
+    "name": "sdas",
+    "commands": [{
+      "id": "f57d062e-fcb2-40fe-9885-7a6fd886780c",
+      "comment": "",
+      "command": "open",
+      "target": "/en/governmentorders?cd=MgA3ADUANQA%3D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57217ed1-518e-45ad-a12f-60a922f45811",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "799x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8462e925-e648-4b33-8af4-aa22af18498b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ContentPlaceHolder_Body_gvgovernOrder_hypDown_0",
+      "targets": [
+        ["css=#ContentPlaceHolder_Body_gvgovernOrder tr:first-child td:nth-child(2) a", "css:finder"],
+        ["xpath=//table[@id='ContentPlaceHolder_Body_gvgovernOrder']/tbody/tr[1]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '.pdf')]", "xpath:link"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'.pdf')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7469",
+      "windowTimeout": 2000
+    }, {
+      "id": "f3c36423-d841-4bdd-8047-49182d57f769",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7469}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "66725807-f628-4150-95ec-124e4e6ebeb0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["75047ec3-53a0-4379-a6ca-896ae6458c0e"]
+  }],
+  "urls": ["https://idup.gov.in/"],
+  "plugins": []
+}
