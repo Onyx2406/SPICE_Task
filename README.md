@@ -1,4 +1,4 @@
-# SPINE_Task
+# SPICE_Task
 
 This repository contains a Selenium IDE test automation script that downloads the latest PDF file posted on the Integrated Development of Urban Poor (IDUP) website. The script was created as part of the SPICE-IN Lens technical assessment.
 
