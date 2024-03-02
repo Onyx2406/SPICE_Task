@@ -4,8 +4,8 @@ This repository contains a Selenium IDE test automation script that downloads th
 
 ### Prerequisites
 
-Selenium IDE (Chrome or Firefox extension)
-Selenium Side Runner
+Selenium IDE (Chrome or Firefox extension),
+Selenium Side Runner,
 ChromeDriver (if running tests on Chrome)
 
 ### Screenshot of Test Passing
